@@ -1,2 +1,3 @@
-# project-euler
-Project Euler in Javascript
+# Project Euler
+
+Project Euler in Typescript (because why not)
