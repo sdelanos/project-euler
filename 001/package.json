@@ -12,5 +12,15 @@
     "build-watch": "../node_modules/.bin/rimraf ./build && tsc -w",
     "test": "../node_modules/.bin/jest",
     "lint": "../node_modules/.bin/eslint . --ext .ts"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "nodemonConfig": {
+    "watch": [ "src", "test" ],
+    "ext": "ts",
+    "ignore": [ "src/**/*.spec.ts" ],
+    "exec": "ts-node ./src/index.ts"
   }
 }
