@@ -1,0 +1,25 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "Project Euler Problems",
+  "main": "index.js",
+  "author": "Sebastien Delanos",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^7.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^25.2.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}

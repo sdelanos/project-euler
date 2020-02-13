@@ -1,4 +1,4 @@
-import { Main } from '../src';
+import Main from '../src';
 
 describe('main class tests', () => {
   it('should return the right result', () => {
