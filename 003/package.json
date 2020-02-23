@@ -1,7 +1,7 @@
 {
-  "name": "project-euler-001",
+  "name": "project-euler-003",
   "version": "1.0.0",
-  "description": "Project Euler #001",
+  "description": "Project Euler #003",
   "main": "index.js",
   "author": "Sebastien Delanos",
   "license": "MIT",

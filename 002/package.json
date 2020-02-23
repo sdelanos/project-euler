@@ -7,20 +7,25 @@
   "license": "MIT",
   "scripts": {
     "start": "npm run build && node ./build/index.js",
-    "dev": "../node_modules/.bin/nodemon",
-    "build": "../node_modules/.bin/rimraf ./build && tsc",
-    "build-watch": "../node_modules/.bin/rimraf ./build && tsc -w",
-    "test": "../node_modules/.bin/jest",
-    "lint": "../node_modules/.bin/eslint . --ext .ts"
+    "dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "build-watch": "rimraf ./build && tsc -w",
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
   },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
   },
   "nodemonConfig": {
-    "watch": [ "src", "test" ],
+    "watch": [
+      "src",
+      "test"
+    ],
     "ext": "ts",
-    "ignore": [ "src/**/*.spec.ts" ],
+    "ignore": [
+      "src/**/*.spec.ts"
+    ],
     "exec": "ts-node ./src/index.ts"
   }
 }

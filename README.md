@@ -9,6 +9,6 @@ npm install
 ```
 
 ```
-cd 001/
+cd 001/ && npm i
 npm run start
 ```
