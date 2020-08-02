@@ -10,9 +10,11 @@
     "start:001": "node ./build/001/src/",
     "start:002": "node ./build/002/src/",
     "start:003": "node ./build/003/src/",
+    "start:004": "node ./build/004/src/",
     "test:001": "jest ./build/001/test/",
     "test:002": "jest ./build/002/test/",
     "test:003": "jest ./build/003/test/",
+    "test:004": "jest ./build/004/test/",
     "dev": "nodemon",
     "build": "rimraf ./build && tsc",
     "build-watch": "rimraf ./build && tsc -w",
@@ -31,5 +33,9 @@
     "ts-jest": "^26.1.0",
     "ts-node": "^8.10.0",
     "typescript": "^3.9.0"
+  },
+  "dependencies": {
+    "@types/perfy": "^1.1.0",
+    "perfy": "^1.1.5"
   }
 }
