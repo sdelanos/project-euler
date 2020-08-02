@@ -6,9 +6,6 @@ Project Euler in Typescript (because why not)
 
 ```
 npm install
-```
-
-```
-cd 001/ && npm i
-npm run start
+npm run build
+npm run start:001
 ```
