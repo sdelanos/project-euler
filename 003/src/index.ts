@@ -1,5 +1,5 @@
 export default class Main {
-  public static process(input: number): number {
+  public static process(input = 13195): number {
     let result: number = input;
 
     while (result % 2 === 0) {
@@ -14,3 +14,5 @@ export default class Main {
     return result;
   }
 }
+
+Main.process();

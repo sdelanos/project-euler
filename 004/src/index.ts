@@ -24,8 +24,8 @@ export default class Main {
     }
     const perf = Perfy.end('perf');
 
-    console.log(`Algorithm performance : ${perf.fullMilliseconds}ms`);
-    console.log(`Algorithm result : ${result}`);
+    console.info(`Algorithm performance : ${perf.fullMilliseconds}ms`);
+    console.info(`Algorithm result : ${result}`);
     return result;
   }
 
@@ -34,3 +34,5 @@ export default class Main {
     return stringified === stringified.split('').reverse().join('');
   }
 }
+
+Main.process();

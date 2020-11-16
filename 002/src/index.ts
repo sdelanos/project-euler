@@ -11,3 +11,5 @@ export default class Main {
     return result;
   }
 }
+
+Main.process();
